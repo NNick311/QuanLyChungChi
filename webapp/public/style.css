@@ -1,0 +1,18 @@
+body {
+	background-color: #d3d3d3;
+}
+
+.form-box {
+	width: 70em;
+	margin: auto;
+	padding: 2em;
+	border: 2px solid;
+	background-color: white;
+}
+
+.required-field:after {
+	color: red;
+	content: "*";
+	margin-left: 0.4em;
+	top: 0.1em;
+}
